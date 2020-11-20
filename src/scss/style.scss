@@ -1,0 +1,61 @@
+@import './global/fonts';
+@import './global/items';
+@import './global/reset';
+@import './global/typography';
+@import './global/ui';
+@import './global/variables';
+@import './screens/first-screen.scss';
+@import './screens/menu-screen.scss';
+@import './screens/text-screen.scss';
+@import './screens/lounge-screen.scss';
+@import './screens/vine-screen.scss';
+@import './screens/sig-screen.scss';
+@import './screens/degust-screen.scss';
+@import './components/template-block.scss';
+@import './screens/map-screen.scss';
+@import './screens/bottom-screen.scss';
+@import './screens/test-screen.scss';
+@import './screens/_header.scss';
+@import './components/progress-line.scss';
+
+/*--------------------*/
+.button-catalog{
+    margin-top: 37px;
+    text-align: left;
+    position: relative;
+}
+
+.button-catalog img{
+    margin-left: 0px;
+    width: 260px;
+    height:72px;
+}
+
+.btn{
+    background: none;
+    color:#A18650;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.button-catalog button{
+    position: absolute;
+    top:23px;
+    left:49px;
+    background: none;
+    color:#A18650;
+    font-size: 18px;
+    font-weight: 300;
+}
+///////////
+
+body{
+    font-family: "Greta Text Pro";
+}
+
+.shadow-vine{
+    filter: drop-shadow(0px 34px 52px rgba(0, 0, 0, 0.7));
+}
+
+
+

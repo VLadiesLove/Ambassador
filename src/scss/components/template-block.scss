@@ -1,0 +1,30 @@
+.template-screen{
+
+    .template-wrapper{
+        position: relative;
+        margin:0px 240px 0px 240px;
+        padding-top: 150px;
+    }
+
+    .template-wrapper img{
+        width: 960px;
+        height: 532px;
+    }
+
+    // .template-text h2{
+    //     text-transform: uppercase;
+    //     position: absolute;
+    //     bottom:60px;
+    //     right:8px;
+    //     color: #c8c6c4;
+    //     font-size: 70px;
+    //     line-height: 77px;
+    //     font-weight: 300;
+    //     letter-spacing: 1%;
+    // }
+    .button-template{
+        margin-top: 9px;
+        float:left;
+        margin-left: 270px;
+    }
+}

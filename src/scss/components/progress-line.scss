@@ -1,0 +1,32 @@
+.progress-line{
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    display: inline-block;
+    width: 12px;
+    background-color: black;
+    height: 0px;
+    margin-left: 60px;
+    margin-top: 238px;
+    .cell{
+        margin: 0px;
+        width: 10px;
+        height: 60px;
+        border: 1px solid #393939;
+    }
+
+    .counter{
+        color:#393939;
+        font-size: 15px;
+        font-weight: 300;
+        top:50px;
+        left:20px;
+        position: absolute;
+
+        .counter-item{
+            margin-bottom: 38px;
+        }
+    }
+
+}

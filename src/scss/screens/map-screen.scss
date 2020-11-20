@@ -1,0 +1,14 @@
+.map-screen{
+    height: 453px;
+    background: url('../../images/map-screen/map.png') 100%/100% no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+        margin-left: 20%;
+        margin-bottom: 5%;
+        width: 142px;
+        float:center
+    }
+}
